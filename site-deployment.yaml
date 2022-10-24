@@ -15,7 +15,7 @@ spec:
         app: static-site
     spec:
       containers:
-      - name: static-site
+      - name: pyserver 
         image: odenli/pyserver
         imagePullPolicy: Always
         ports:
